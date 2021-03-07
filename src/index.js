@@ -12,7 +12,8 @@
       if(open.indexOf(str[i]) !== -1 ) stack.push(str[i]);
       else if(close.indexOf(str[i]) !== -1 ) stack.pop(str[i]);
     }
-    if (stack.length === 0){ return true;}else{return false;}
+    if (stack.length === 0){ return true;}
+      else{return false;}
  
   }
 
